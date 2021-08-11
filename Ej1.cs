@@ -103,5 +103,13 @@ namespace TP_Nº1
             lbNombres.Items.Clear();
 
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form Formulario;
+            Formulario = new frmPrincipal();
+            Formulario.Show();
+        }
     }
 }

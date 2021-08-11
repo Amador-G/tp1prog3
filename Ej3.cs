@@ -35,5 +35,13 @@ namespace TP_Nº1
             Salida += checkbox;
             lblResultado.Text = Salida;
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form Formulario;
+            Formulario = new frmPrincipal();
+            Formulario.Show();
+        }
     }
 }

@@ -101,5 +101,12 @@ namespace TP_Nº1
 
         }
 
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form Formulario;
+            Formulario = new frmPrincipal();
+            Formulario.Show();
+        }
     }
 }
