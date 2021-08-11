@@ -1,0 +1,36 @@
+C:\Users\Sebas\source\repos\TP Nº1\bin\Debug\TP Nº1.exe.config
+C:\Users\Sebas\source\repos\TP Nº1\bin\Debug\TP Nº1.exe
+C:\Users\Sebas\source\repos\TP Nº1\bin\Debug\TP Nº1.pdb
+C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP_Nº1.Properties.Resources.resources
+C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP Nº1.csproj.GenerateResource.cache
+C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP Nº1.csproj.CoreCompileInputs.cache
+C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP Nº1.exe
+C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP Nº1.pdb
+C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP Nº1.csproj.AssemblyReference.cache
+C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP_Nº1.Ej1.resources
+C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP_Nº1.Ej2.resources
+C:\Users\Diamela\Desktop\TP Nº1\bin\Debug\TP Nº1.exe.config
+C:\Users\Diamela\Desktop\TP Nº1\bin\Debug\TP Nº1.exe
+C:\Users\Diamela\Desktop\TP Nº1\bin\Debug\TP Nº1.pdb
+C:\Users\Diamela\Desktop\TP Nº1\obj\Debug\TP Nº1.csproj.AssemblyReference.cache
+C:\Users\Diamela\Desktop\TP Nº1\obj\Debug\TP_Nº1.Ej1.resources
+C:\Users\Diamela\Desktop\TP Nº1\obj\Debug\TP_Nº1.Ej2.resources
+C:\Users\Diamela\Desktop\TP Nº1\obj\Debug\TP_Nº1.Properties.Resources.resources
+C:\Users\Diamela\Desktop\TP Nº1\obj\Debug\TP Nº1.csproj.GenerateResource.cache
+C:\Users\Diamela\Desktop\TP Nº1\obj\Debug\TP Nº1.csproj.CoreCompileInputs.cache
+C:\Users\Diamela\Desktop\TP Nº1\obj\Debug\TP Nº1.exe
+C:\Users\Diamela\Desktop\TP Nº1\obj\Debug\TP Nº1.pdb
+C:\Users\Diamela\Desktop\TP Nº1\obj\Debug\TP_Nº1.Ej3.resources
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\bin\Debug\TP Nº1.exe.config
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\bin\Debug\TP Nº1.exe
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\bin\Debug\TP Nº1.pdb
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP Nº1.csproj.AssemblyReference.cache
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP_Nº1.Ej1.resources
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP_Nº1.Ej2.resources
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP_Nº1.Ej3.resources
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP_Nº1.Properties.Resources.resources
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP Nº1.csproj.GenerateResource.cache
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP Nº1.csproj.CoreCompileInputs.cache
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP Nº1.exe
+C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP Nº1.pdb
+C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP_Nº1.Ej3.resources

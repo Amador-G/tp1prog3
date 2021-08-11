@@ -30,11 +30,11 @@ namespace TP_Nº1
         private void InitializeComponent()
         {
             this.groupSexo = new System.Windows.Forms.GroupBox();
-            this.rbMasculino = new System.Windows.Forms.RadioButton();
-            this.rbFemenino = new System.Windows.Forms.RadioButton();
             this.groupES = new System.Windows.Forms.GroupBox();
-            this.rbSoltero = new System.Windows.Forms.RadioButton();
+            this.rbFemenino = new System.Windows.Forms.RadioButton();
+            this.rbMasculino = new System.Windows.Forms.RadioButton();
             this.rbCasado = new System.Windows.Forms.RadioButton();
+            this.rbSoltero = new System.Windows.Forms.RadioButton();
             this.listView1 = new System.Windows.Forms.ListView();
             this.cb1 = new System.Windows.Forms.CheckBox();
             this.cb2 = new System.Windows.Forms.CheckBox();
@@ -43,7 +43,6 @@ namespace TP_Nº1
             this.cb5 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnVolver = new System.Windows.Forms.Button();
             this.groupSexo.SuspendLayout();
             this.groupES.SuspendLayout();
             this.SuspendLayout();
@@ -61,15 +60,17 @@ namespace TP_Nº1
             this.groupSexo.TabStop = false;
             this.groupSexo.Text = "Sexo";
             // 
-            // rbMasculino
+            // groupES
             // 
-            this.rbMasculino.AutoSize = true;
-            this.rbMasculino.Location = new System.Drawing.Point(35, 68);
-            this.rbMasculino.Name = "rbMasculino";
-            this.rbMasculino.Size = new System.Drawing.Size(82, 19);
-            this.rbMasculino.TabIndex = 1;
-            this.rbMasculino.Text = "Masculino";
-            this.rbMasculino.UseVisualStyleBackColor = true;
+            this.groupES.Controls.Add(this.rbSoltero);
+            this.groupES.Controls.Add(this.rbCasado);
+            this.groupES.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupES.Location = new System.Drawing.Point(471, 51);
+            this.groupES.Name = "groupES";
+            this.groupES.Size = new System.Drawing.Size(215, 113);
+            this.groupES.TabIndex = 1;
+            this.groupES.TabStop = false;
+            this.groupES.Text = "Estado Civil";
             // 
             // rbFemenino
             // 
@@ -83,27 +84,15 @@ namespace TP_Nº1
             this.rbFemenino.Text = "Femenino";
             this.rbFemenino.UseVisualStyleBackColor = true;
             // 
-            // groupES
+            // rbMasculino
             // 
-            this.groupES.Controls.Add(this.rbSoltero);
-            this.groupES.Controls.Add(this.rbCasado);
-            this.groupES.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupES.Location = new System.Drawing.Point(471, 51);
-            this.groupES.Name = "groupES";
-            this.groupES.Size = new System.Drawing.Size(215, 113);
-            this.groupES.TabIndex = 1;
-            this.groupES.TabStop = false;
-            this.groupES.Text = "Estado Civil";
-            // 
-            // rbSoltero
-            // 
-            this.rbSoltero.AutoSize = true;
-            this.rbSoltero.Location = new System.Drawing.Point(46, 68);
-            this.rbSoltero.Name = "rbSoltero";
-            this.rbSoltero.Size = new System.Drawing.Size(64, 19);
-            this.rbSoltero.TabIndex = 1;
-            this.rbSoltero.Text = "Soltero";
-            this.rbSoltero.UseVisualStyleBackColor = true;
+            this.rbMasculino.AutoSize = true;
+            this.rbMasculino.Location = new System.Drawing.Point(35, 68);
+            this.rbMasculino.Name = "rbMasculino";
+            this.rbMasculino.Size = new System.Drawing.Size(82, 19);
+            this.rbMasculino.TabIndex = 1;
+            this.rbMasculino.Text = "Masculino";
+            this.rbMasculino.UseVisualStyleBackColor = true;
             // 
             // rbCasado
             // 
@@ -116,6 +105,16 @@ namespace TP_Nº1
             this.rbCasado.TabStop = true;
             this.rbCasado.Text = "Casado";
             this.rbCasado.UseVisualStyleBackColor = true;
+            // 
+            // rbSoltero
+            // 
+            this.rbSoltero.AutoSize = true;
+            this.rbSoltero.Location = new System.Drawing.Point(46, 68);
+            this.rbSoltero.Name = "rbSoltero";
+            this.rbSoltero.Size = new System.Drawing.Size(64, 19);
+            this.rbSoltero.TabIndex = 1;
+            this.rbSoltero.Text = "Soltero";
+            this.rbSoltero.UseVisualStyleBackColor = true;
             // 
             // listView1
             // 
@@ -202,22 +201,11 @@ namespace TP_Nº1
             this.label1.TabIndex = 9;
             this.label1.Text = "Usted selecciono los siguientes elementos.";
             // 
-            // btnVolver
-            // 
-            this.btnVolver.Location = new System.Drawing.Point(690, 404);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(98, 34);
-            this.btnVolver.TabIndex = 10;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
             // Ej3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cb5);
@@ -255,6 +243,5 @@ namespace TP_Nº1
         private System.Windows.Forms.CheckBox cb5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnVolver;
     }
 }

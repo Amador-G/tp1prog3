@@ -21,42 +21,85 @@ namespace TP_Nº1
         {
             if (txtApellido.Text.Trim().Length > 0 && txtNombre.Text.Trim().Length > 0)
             {
-                string aux = txtApellido.Text + " " + txtNombre.Text;
-                if (lbApNom.Items.Contains(aux))
+                string ApellidoNombre = txtApellido.Text + " " + txtNombre.Text;
+                string aux = ApellidoNombre.ToUpper();
+
+                if (verificacionNombreAp(aux) == true)
                 {
-                    MessageBox.Show("Duplicado");
-                    txtApellido.Clear();
-                    txtNombre.Clear();
-                    txtNombre.Focus();
-                   
-                }
-                else
-                {
-                    lbApNom.Items.Add(aux);
-                    txtApellido.Clear();
-                    txtNombre.Clear();
-                    txtNombre.Focus();
-                    lbApNom.Sorted = true;
+                    lbApNom.Items.Add(ApellidoNombre);
                 }
 
+
+                txtApellido.Clear();
+                txtNombre.Clear();
+                txtNombre.Focus();
+                lbApNom.Sorted = true;
             }
             else
             {
                 MessageBox.Show("Debe completar ambos campos para añadir.");
             }
 
+
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            lbApNom.Items.RemoveAt(lbApNom.SelectedIndex);
+            bool estado;
+            estado = ValidacionBorrar();
+
+            if (estado)
+            {
+                MessageBox.Show("Elemento borrado exitosamente", "atencion");
+            }
+            
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
+        private bool ValidacionBorrar()
         {
-            this.Close();
-            Form Formulario = new frmPrincipal();
-            Formulario.Show();
+            bool estado = true;
+
+            try
+            {
+                lbApNom.Items.RemoveAt(lbApNom.SelectedIndex);
+            }
+            catch (ArgumentOutOfRangeException fe)
+            {
+                MessageBox.Show(fe.Message);
+                //  throw;
+                estado = false;
+            }
+
+            return estado;
         }
+
+
+        private bool verificacionNombreAp(string aux)
+        {
+            bool Existe = false;
+            for (int i = 0; i < lbApNom.Items.Count; i++)
+            {
+                if (aux == lbApNom.Items[i].ToString().ToUpper())
+                {
+                    Existe = true;
+                }
+
+
+            }
+            if (Existe == true)
+            {
+                MessageBox.Show("Esa persona ya fue ingresada anteriormente, por favor ingrese una nueva persona", "Atencion");
+                txtApellido.Clear();
+                txtNombre.Clear();
+                txtNombre.Focus();
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+
+        }
+
     }
 }

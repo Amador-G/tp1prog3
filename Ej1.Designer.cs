@@ -36,7 +36,6 @@ namespace TP_Nº1
             this.btnMoverSel = new System.Windows.Forms.Button();
             this.btnMoverTodos = new System.Windows.Forms.Button();
             this.lbMovidos = new System.Windows.Forms.ListBox();
-            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -55,7 +54,6 @@ namespace TP_Nº1
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(194, 20);
             this.txtNombre.TabIndex = 1;
-            this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
             // btnAgregar
             // 
@@ -103,22 +101,11 @@ namespace TP_Nº1
             this.lbMovidos.Size = new System.Drawing.Size(307, 264);
             this.lbMovidos.TabIndex = 6;
             // 
-            // btnVolver
-            // 
-            this.btnVolver.Location = new System.Drawing.Point(686, 392);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(102, 46);
-            this.btnVolver.TabIndex = 7;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
             // Ej1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.lbMovidos);
             this.Controls.Add(this.btnMoverTodos);
             this.Controls.Add(this.btnMoverSel);
@@ -142,7 +129,6 @@ namespace TP_Nº1
         private System.Windows.Forms.Button btnMoverSel;
         private System.Windows.Forms.Button btnMoverTodos;
         private System.Windows.Forms.ListBox lbMovidos;
-        private System.Windows.Forms.Button btnVolver;
     }
 }
 
