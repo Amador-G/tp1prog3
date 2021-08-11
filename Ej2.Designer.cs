@@ -37,7 +37,6 @@ namespace TP_Nº1
             this.lbApNom = new System.Windows.Forms.ListBox();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -88,14 +87,14 @@ namespace TP_Nº1
             // lbApNom
             // 
             this.lbApNom.FormattingEnabled = true;
-            this.lbApNom.Location = new System.Drawing.Point(275, 12);
+            this.lbApNom.Location = new System.Drawing.Point(409, 42);
             this.lbApNom.Name = "lbApNom";
             this.lbApNom.Size = new System.Drawing.Size(252, 303);
             this.lbApNom.TabIndex = 5;
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Location = new System.Drawing.Point(347, 331);
+            this.btnBorrar.Location = new System.Drawing.Point(471, 379);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(103, 30);
             this.btnBorrar.TabIndex = 6;
@@ -111,22 +110,11 @@ namespace TP_Nº1
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 7;
             // 
-            // btnVolver
-            // 
-            this.btnVolver.Location = new System.Drawing.Point(462, 389);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(88, 44);
-            this.btnVolver.TabIndex = 8;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
             // Ej2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(573, 445);
-            this.Controls.Add(this.btnVolver);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.lbApNom);
@@ -151,6 +139,5 @@ namespace TP_Nº1
         private System.Windows.Forms.ListBox lbApNom;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnVolver;
     }
 }

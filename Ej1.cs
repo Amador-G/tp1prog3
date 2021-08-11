@@ -32,9 +32,9 @@ namespace TP_Nº1
                     Existe = true;
                 }
             }
-        
-            
-            if (Existe == true)
+
+
+            if (Existe)
             {
                 MessageBox.Show("El nombre ya existe. Ingrese uno nuevo", "Atencion");
                 txtNombre.Clear();
@@ -42,51 +42,66 @@ namespace TP_Nº1
             }
             else
             {
-                lbNombres.Items.Add(Nombre);
-                txtNombre.Clear();
-                txtNombre.Focus();
+                if (aux.Trim().Length == 0)
+                {
+                    MessageBox.Show("No puede agregar dato en blanco. Ingrese un dato", "Atencion");
+                    txtNombre.Clear();
+                    txtNombre.Focus();
+                }
+                else
+                {
+                    lbNombres.Items.Add(Nombre);
+                    txtNombre.Clear();
+                    txtNombre.Focus();
+                }
+
 
             }
 
 
 
-        }
-
-        private void txtNombre_Leave(object sender, EventArgs e)
-        {
-            if (txtNombre.Text.Length == 0)
-            {
-                //saco el color porque se pone en rojo cuando uno selecciona los items para moverlos de un lado a otro y queda feo.
-               // txtNombre.BackColor = Color.Red;
-                btnAgregar.Enabled = false;
-            }
-            else
-            {
-               // txtNombre.BackColor = SystemColors.Window;
-                btnAgregar.Enabled = true;
-            }
         }
 
         private void btnMoverSel_Click(object sender, EventArgs e)
         {
-            string Item = lbNombres.SelectedItem.ToString();
-            lbNombres.Items.RemoveAt(lbNombres.SelectedIndex);
-            lbMovidos.Items.Add(Item);
+            bool estado;
+            estado = ValidacionClick();
+
+
+            if (estado)
+            {
+                string Item = lbNombres.SelectedItem.ToString();
+                lbNombres.Items.RemoveAt(lbNombres.SelectedIndex);
+                lbMovidos.Items.Add(Item);
+                txtNombre.Focus();
+            }
+        }
+
+
+        private bool ValidacionClick()
+        {
+            bool estado = true;
+            try
+            {
+                string Item = lbNombres.SelectedItem.ToString();
+            }
+            catch (NullReferenceException fe)
+            {
+                DialogResult dialogResult = MessageBox.Show(fe.Message);
+                _ = dialogResult;
+                estado = false;
+                // throw;
+                txtNombre.Focus();
+            }
+
+            return estado;
         }
 
         private void btnMoverTodos_Click(object sender, EventArgs e)
         {
-
             lbMovidos.Items.AddRange(lbNombres.Items);
             lbNombres.Items.Clear();
 
-        }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            Form Formulario = new frmPrincipal();
-            Formulario.Show();
         }
     }
 }
