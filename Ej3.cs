@@ -21,5 +21,14 @@ namespace TP_Nº1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String Salida;
+            Salida = "Sexo: " + (string)(rbFemenino.Checked ? "Femenino" : "Masculino") +"\r\n";
+            Salida += "Estado Civil: " + (string)(rbCasado.Checked ? "Casado" : "Soltero") +"\r\n";
+            Salida += "Profesion: " + (string)(lbProfesion.SelectedItems.ToString());
+            lblresultado.Text = Salida;
+        }
     }
 }

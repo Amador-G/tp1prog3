@@ -34,3 +34,15 @@ C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP Nº1.csproj.CoreComp
 C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP Nº1.exe
 C:\Users\Sebas\source\repos\TP Nº1 a integrar\obj\Debug\TP Nº1.pdb
 C:\Users\Sebas\source\repos\TP Nº1\obj\Debug\TP_Nº1.Ej3.resources
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\bin\Debug\TP Nº1.exe.config
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\bin\Debug\TP Nº1.exe
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\bin\Debug\TP Nº1.pdb
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.csproj.AssemblyReference.cache
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP_Nº1.Ej1.resources
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP_Nº1.Ej2.resources
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP_Nº1.Ej3.resources
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP_Nº1.Properties.Resources.resources
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.csproj.GenerateResource.cache
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.csproj.CoreCompileInputs.cache
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.exe
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.pdb

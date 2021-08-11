@@ -16,7 +16,7 @@ namespace TP_Nº1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ej2());
+            Application.Run(new Ej3());
         }
     }
 }
