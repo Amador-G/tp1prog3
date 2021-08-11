@@ -46,3 +46,4 @@ F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3
 F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.csproj.CoreCompileInputs.cache
 F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.exe
 F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.pdb
+F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP_Nº1.frmPrincipal.resources
