@@ -31,9 +31,13 @@ namespace TP_Nº1
             Salida = "Sexo: " + (string)(rbFemenino.Checked ? "Femenino" : "Masculino") + "\r\n";
             Salida += "Estado Civil: " + (string)(rbCasado.Checked ? "Casado" : "Soltero") + "\r\n";
             Salida += "Profesion: " + "\r\n";
-            checkbox = clbProfesion.CheckedItems.ToString();
-            Salida += checkbox;
-            lblResultado.Text = Salida;
+            foreach (var li in clbProfesion.CheckedItems)
+            {
+                checkbox = li.ToString();
+                Salida += checkbox;
+                lblResultado.Text = Salida;
+            }
+            
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
