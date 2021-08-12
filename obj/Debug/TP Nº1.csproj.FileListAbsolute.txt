@@ -47,3 +47,16 @@ F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3
 F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.exe
 F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP Nº1.pdb
 F:\UTN\Cuatrimestre 3\Programacion III\Aplicaciones de escritorio U 1y2\tp1prog3\obj\Debug\TP_Nº1.frmPrincipal.resources
+C:\Users\Diamela\Desktop\proyect\x\x\bin\Debug\TP Nº1.exe.config
+C:\Users\Diamela\Desktop\proyect\x\x\bin\Debug\TP Nº1.exe
+C:\Users\Diamela\Desktop\proyect\x\x\bin\Debug\TP Nº1.pdb
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP Nº1.csproj.AssemblyReference.cache
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP_Nº1.Ej1.resources
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP_Nº1.Ej2.resources
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP_Nº1.Ej3.resources
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP_Nº1.frmPrincipal.resources
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP_Nº1.Properties.Resources.resources
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP Nº1.csproj.GenerateResource.cache
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP Nº1.csproj.CoreCompileInputs.cache
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP Nº1.exe
+C:\Users\Diamela\Desktop\proyect\x\x\obj\Debug\TP Nº1.pdb
